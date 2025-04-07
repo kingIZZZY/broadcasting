@@ -27,18 +27,18 @@
     },
     "require": {
         "php": "^8.2",
-        "hyperf/contract": "~3.1.0",
-        "hyperf/http-server": "~3.1.0",
-        "hyperf/pool": "~3.1.0",
-        "hyperf/redis": "~3.1.0",
-        "hypervel/auth": "^0.1",
-        "hypervel/bus": "^0.1",
-        "hypervel/cache": "^0.1",
-        "hypervel/foundation": "^0.1",
-        "hypervel/queue": "^0.1",
-        "hypervel/router": "^0.1",
-        "hypervel/support": "^0.1",
-        "hypervel/object-pool": "^0.1"
+        "hyperf/contract": "3.2.x-dev",
+        "hyperf/http-server": "3.2.x-dev",
+        "hyperf/pool": "3.2.x-dev",
+        "hyperf/redis": "3.2.x-dev",
+        "hypervel/auth": "dev-hyperf3.2",
+        "hypervel/bus": "dev-hyperf3.2",
+        "hypervel/cache": "dev-hyperf3.2",
+        "hypervel/foundation": "dev-hyperf3.2",
+        "hypervel/queue": "dev-hyperf3.2",
+        "hypervel/router": "dev-hyperf3.2",
+        "hypervel/support": "dev-hyperf3.2",
+        "hypervel/object-pool": "dev-hyperf3.2"
     },
     "suggest": {
         "ext-hash": "Required to use the Ably and Pusher broadcast drivers.",
@@ -56,5 +56,39 @@
         "branch-alias": {
             "dev-main": "0.1-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/auth"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/bus"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/cache"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/foundation"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/queue"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/router"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/support"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/object-pool"
+        }
+    ]
 }
